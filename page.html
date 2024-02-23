@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Guessing Game</title>
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Guess the Quote!</h1>
+    <div id="quote-container"></div>
+    <form id="guess-form">
+      <label for="guess">Enter your guess:</label>
+      <input type="text" id="guess" name="guess">
+      <button type="submit">Guess</button>
+    </form>
+    <p id="message"></p>
+    <p id="attempts">Attempts left: <span id="attempt-count">5</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
